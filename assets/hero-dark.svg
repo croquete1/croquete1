@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380" role="img" aria-labelledby="title desc">
+<title id="title">André Gomes — software developer and open-source contributor</title>
+<desc id="desc">Premium developer portfolio banner with elegant gradient lettering and a stylised terminal window.</desc>
+<defs>
+ <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080E1C"/><stop offset=".60" stop-color="#111831"/><stop offset="1" stop-color="#17142D"/></linearGradient>
+ <linearGradient id="accent" x1="0" x2="1" y1="0" y2=".4"><stop stop-color="#62E4CF"/><stop offset=".5" stop-color="#76BDFB"/><stop offset="1" stop-color="#B291FD"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#7465E8" stop-opacity=".24"/><stop offset="1" stop-color="#7465E8" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#7585B0" stroke-opacity=".10"/></pattern>
+ <clipPath id="rounded"><rect width="1280" height="380" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#rounded)">
+ <rect width="1280" height="380" fill="url(#background)"/>
+ <rect width="1280" height="380" fill="url(#grid)"/>
+ <circle cx="1046" cy="115" r="360" fill="url(#aura)"/>
+ <path d="M0 379H1280" stroke="url(#accent)" stroke-width="4"/>
+ <g opacity=".48" fill="none" stroke="#7585B0" stroke-width="1.2">
+   <circle cx="1171" cy="302" r="47"/><circle cx="1171" cy="302" r="29"/><path d="M1171 244V223M1171 360v-21M1113 302h-21M1248 302h-19"/>
+ </g>
+ <rect x="57" y="47" width="226" height="35" rx="17" fill="#1B2740" stroke="#334969"/>
+ <circle cx="78" cy="64" r="5" fill="#66E2D4"/>
+ <text x="94" y="69" fill="#A8B6CE" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">BUILDING IN PUBLIC</text>
+ <g font-family="Arial, Helvetica, sans-serif">
+  <text x="56" y="163" font-size="78" font-weight="800" letter-spacing="-3.5" fill="#F5F7FF">ANDRÉ</text>
+  <text x="56" y="242" font-size="78" font-weight="800" letter-spacing="-3.5" fill="url(#accent)">GOMES.</text>
+  <text x="60" y="286" font-size="15.5" letter-spacing="2.5" font-weight="700" fill="#A8B6CE">DEVELOPER  /  OPEN SOURCE CONTRIBUTOR</text>
+  <rect x="60" y="319" width="35" height="3" rx="1.5" fill="#66E2D4"/>
+  <text x="107" y="325" fill="#A8B6CE" font-size="13.5" letter-spacing="1.1">CRAFT · CLARITY · RELIABILITY</text>
+ </g>
+ <g transform="translate(740 72)">
+  <rect x="0" y="0" width="465" height="236" rx="16" fill="#0C1427" stroke="#435272" stroke-width="1.4"/>
+  <path d="M16 0H449Q465 0 465 16V46H0V16Q0 0 16 0Z" fill="#19233A"/>
+  <path d="M0 46H465" stroke="#435272" stroke-width="1"/>
+  <circle cx="24" cy="23" r="5.5" fill="#F38D9C"/><circle cx="45" cy="23" r="5.5" fill="#EBC26D"/><circle cx="66" cy="23" r="5.5" fill="#62CFB0"/>
+  <text x="232" y="28" font-family="Consolas, 'Courier New', monospace" font-size="12" text-anchor="middle" fill="#A8B6CE">@croquete1 / profile</text>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="18">
+   <text x="27" y="94" fill="#66E2D4">❯</text><text x="56" y="94" fill="#D7E5FA">whoami</text>
+   <text x="28" y="124" font-size="15" fill="#9FAEC4">software developer</text>
+   <text x="27" y="164" fill="#66E2D4">❯</text><text x="56" y="164" fill="#D7E5FA">focus</text>
+   <text x="28" y="194" font-size="15" fill="#9FAEC4">useful products · open source</text>
+   <text x="28" y="220" font-size="15" fill="#AF8AFF">git commit -m "keep improving"</text>
+  </g>
+ </g>
+</g>
+</svg>
