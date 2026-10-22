@@ -1,65 +1,77 @@
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+    <img src="./assets/hero-dark.svg" alt="André Gomes — Software developer and open-source contributor" width="100%">
+  </picture>
 
-# André Gomes
-
-### Developer · Open-source contributor · Building practical software
-
-<p>
-  <a href="https://github.com/croquete1?tab=repositories">Repositories</a> •
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Acroquete1+org%3AStremio">Stremio Contributions</a>
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript" />
-  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/Next.js-111827?style=for-the-badge&logo=nextdotjs" />
-  <img src="https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs" />
-  <img src="https://img.shields.io/badge/Rust-111827?style=for-the-badge&logo=rust" />
-  <img src="https://img.shields.io/badge/Rails-111827?style=for-the-badge&logo=rubyonrails" />
-</p>
-
+  <h3>Useful software. Clear architecture. Thoughtful experiences.</h3>
+  <p><strong>Full-stack development · Open-source contributions · Product craftsmanship</strong></p>
+  <p>
+    <a href="#selected-work">Selected work</a> ·
+    <a href="#open-source--stremio">Open source</a> ·
+    <a href="https://github.com/croquete1?tab=repositories">Public repositories</a> ·
+    <a href="./README.pt.md">Português 🇵🇹</a>
+  </p>
+  <p>
+    <code>TypeScript</code> &nbsp; <code>React</code> &nbsp; <code>Next.js</code> &nbsp;
+    <code>Node.js</code> &nbsp; <code>Rust</code> &nbsp; <code>Ruby on Rails</code>
+  </p>
 </div>
 
 ---
 
-## About me
+### About
 
-I'm André, a developer focused on building **practical**, **maintainable** software with clear architecture and thoughtful user experience.
+I'm André, a developer who enjoys turning complex requirements into **useful, maintainable software**. My focus is on clear architecture, dependable systems, polished interfaces and the small details that improve a product.
 
-I enjoy working across the stack, improving systems, refining interfaces, and contributing to open-source projects.
+I build across the stack and contribute to open-source projects, including [Stremio](https://github.com/Stremio).
+
+### Selected work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/croquete1/observatory">↗ Open Tender Watch</a></h3>
+      <p>Exploring transparency in public procurement, with documented risk indicators for human review — not accusations or automated conclusions.</p>
+      <p><code>Rails</code> <code>Hotwire</code> <code>SQLite</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/croquete1/Fitness-Pro">↗ Fitness-Pro</a></h3>
+      <p>A fitness-management dashboard featuring authentication, role-based access control, administration tools and structured product workflows.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Prisma</code></p>
+    </td>
+  </tr>
+</table>
+
+### Open source · Stremio
+
+I contribute improvements to the Stremio ecosystem, spanning application behaviour, compatibility and localisation. Some selected public contributions:
+
+| Repository | Contribution |
+|:--|:--|
+| [stremio-shell-ng](https://github.com/Stremio/stremio-shell-ng/pull/109) | Retry single-instance handoff when another instance owns the pipe · PR #109 |
+| [stremio-shell-ng](https://github.com/Stremio/stremio-shell-ng/pull/110) | Safer handling of locally dropped files · PR #110 |
+| [stremio-core](https://github.com/Stremio/stremio-core/pull/1068) | Support statistics requests without a file index · PR #1068 |
+| [stremio-web](https://github.com/Stremio/stremio-web/pull/1474) | Skip view transitions on WebKitGTK · PR #1474 |
+
+<p align="right"><a href="https://github.com/pulls?q=is%3Apr+author%3Acroquete1+org%3AStremio">All public Stremio pull requests →</a></p>
+
+### Tools & technologies
+
+| Frontend | Backend & systems | Data & workflow |
+|:--|:--|:--|
+| TypeScript · JavaScript | Node.js · Rust | PostgreSQL · SQLite |
+| React · Next.js | Ruby · Rails | Git · GitHub |
+| HTML · CSS | APIs · application architecture | Testing · code review |
+
+### Principles
+
+> Make complexity understandable. Build for real people. Test what matters. Keep improving.
 
 ---
 
-## Featured work
-
-### [Open Tender Watch](https://github.com/croquete1/observatory)
-Public procurement transparency project focused on surfacing documented risk indicators for human review.
-
-**Stack:** Rails · Hotwire · SQLite
-
-### [Fitness-Pro](https://github.com/croquete1/Fitness-Pro)
-Fitness management dashboard with authentication, RBAC, administration flows and a structured product foundation.
-
-**Stack:** Next.js · TypeScript · Prisma
-
-### [Stremio contributions](https://github.com/pulls?q=is%3Apr+author%3Acroquete1+org%3AStremio)
-Open-source contributions across the Stremio ecosystem, including application behaviour, interface improvements and localisation.
-
----
-
-## Selected open-source contributions
-
-- [stremio-core #1068](https://github.com/Stremio/stremio-core/pull/1068) — support statistics requests without a file index
-- [stremio-web #1474](https://github.com/Stremio/stremio-web/pull/1474) — skip unsupported view transitions on WebKitGTK
-- [stremio-shell-ng #110](https://github.com/Stremio/stremio-shell-ng/pull/110) — safer handling of local files dropped into the app
-- [stremio-shell-ng #109](https://github.com/Stremio/stremio-shell-ng/pull/109) — retry single-instance handoff while another instance owns the pipe
-
----
-
-## Tech stack
-
-```txt
-Frontend     TypeScript · JavaScript · React · Next.js · HTML · CSS
-Backend      Node.js · Rust · Ruby on Rails · APIs
-Data         PostgreSQL · SQLite
-Workflow     Git · GitHub · Testing · Code review
+<div align="center">
+  <sub>Only public projects and contributions are featured here.</sub>
+  <p><a href="https://github.com/croquete1?tab=repositories">Explore public repositories →</a></p>
+</div>
